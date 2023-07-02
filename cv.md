@@ -16,3 +16,9 @@ cv
 5. [https://github.com/Alex221222](https://github.com/Alex221222)
 6. ### Experience
 I take course in the training center RS School
+7. ### Education
+SUKHOI STATE TECHNICAL INIVERSITY OF GOMEL
+2011-2016
+Energy Engineer
+8. ### Language
+English A2
