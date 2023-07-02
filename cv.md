@@ -13,3 +13,6 @@ cv
 - HTML
 - CSS
 - Git
+5. [https://github.com/Alex221222](https://github.com/Alex221222)
+6. ### Experience
+I take course in the training center RS School
