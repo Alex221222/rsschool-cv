@@ -31,6 +31,13 @@ body {
   .nav-link {
     transition: .3s;
   }
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 30px;
+    border-bottom: 20px solid #1d1c1c;
+}
 .section-title {
     display: flex;
     justify-content: center;
@@ -41,7 +48,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; 
-}  
+}
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+.section-item a:hover {
+    color: #bcee0a;
+  }  
 .photo {
     position: absolute;
     left: 60px;
@@ -54,4 +69,12 @@ body {
     width: 130px;
     height:130px;
     object-fit: cover;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
   }
