@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .box {
-    border: 3px solid orange 
+    border: 3px solid rgb(0, 132, 255) 
 }
 body { 
    min-height: 100vh;
@@ -13,8 +13,45 @@ body {
     max-width: 1440px;
     margin: 0 auto;
   }
+  .nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .nav-list {
+    list-style: none;
+  }
+  .nav-link {
+    padding: 0 10px;
+    line-height: 40px;
+  }
+  .nav-link {
+    transition: .3s;
+  }
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}  
 .photo {
     position: absolute;
-    left: 100px;
-    width: 100px;
+    left: 60px;
 }
+.photo {
+    display: inline-block;
+    border-radius: 50%;
+  }
+  .photo {
+    width: 130px;
+    height:130px;
+    object-fit: cover;
+  }
