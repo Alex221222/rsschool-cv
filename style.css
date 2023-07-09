@@ -38,13 +38,8 @@ body {
     padding: 50px 30px 30px;
     border-bottom: 20px solid #1d1c1c;
 }
-.section-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-.section-subtitle{
+.section-subtitle {
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -64,13 +59,13 @@ body {
 .photo {
     display: inline-block;
     border-radius: 50%;
-  }
+}
   .photo {
     width: 130px;
     height:130px;
     object-fit: cover;
   }
-  .main-container {
+  .person-information {
     display: flex;
     flex-wrap: wrap;
   }
@@ -78,3 +73,14 @@ body {
   .section {
     width: 50%;
   }
+.footer {
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.rs-logo {
+  height: 40px;
+  width: 60px;
+}
